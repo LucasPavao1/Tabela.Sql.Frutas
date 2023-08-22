@@ -1,0 +1,17 @@
+create database frutas;
+use frutas;
+create table Frutas_amarelas(nome varchar(100),id int);
+insert into Frutas_amarelas(nome,id) values("Banana",1);
+insert into Frutas_amarelas(nome,id) values("Melao",2);
+insert into Frutas_amarelas(nome,id) values("Abacaxi",3);
+insert into Frutas_amarelas(nome,id) values("Caju",4);
+insert into Frutas_amarelas(nome,id) values("Maracuja",5);
+insert into Frutas_amarelas(nome,id) values("Manga",6);
+create table Frutas_vermelhas(nome varchar(100),id int);
+insert into Frutas_vermelhas(nome,id) values("Morango",1);
+insert into Frutas_vermelhas(nome,id) values("Cereja",2);
+insert into Frutas_vermelhas(nome,id) values("Ameixa",3);
+insert into Frutas_vermelhas(nome,id) values("Amora",4);
+create table Frutas_verdes(nome varchar(100),id int);
+insert into Frutas_verdes(nome,id) values("Limao",1);
+insert into Frutas_verdes(nome,id) values("Abacaxi",2);
